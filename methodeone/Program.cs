@@ -23,6 +23,15 @@ namespace MethodeOne
 
             Console.WriteLine($"Ok {userName} what is your favorite band");
             var band = Console.ReadLine();
+
+            Console.WriteLine($"Thanks {userName}, here is your profiel.");
+            Console.WriteLine("-----------------------------------");
+
+            Console.WriteLine($"Name {userName}");
+            Console.WriteLine($"Favorite color {favColor}");
+            Console.WriteLine($"Favorite animal {animal}");
+            Console.WriteLine($"Favorite band {band}");
+
             
 
         }
