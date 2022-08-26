@@ -4,21 +4,49 @@ namespace MethodeOne
 {
     class Program
     {
-        public static int Sum(int num1, int num2)
+        public static int sum(int num1, int num2)
         {
+
             var answer = num1 + num2;
             return answer;
+
         }
 
-        public static int Multiply(int num1, int num2, int num3)
+        public static int subtract(int num1, int num2)
         {
-            return num1 * num2 * num3;
+            var remainder = num1 - num2;
+            return remainder;
         }
+
+        public static int divide(int num1, int num2)
+        {
+             var dividend = num1 / num2;
+             return dividend;
+        }
+
+        public static int multiply(int num1, int num2)
+        {
+            var multi = num1 * num2;
+            return multi;
+        }
+
         static void Main(String[] args)
         {
 
-            var amountOfcars = Sum(2, 6);
-            var blah = Multiply(60, 2, 4);
+        var amountOfcars = sum(2, 6);
+            Console.WriteLine(amountOfcars);
+            Console.WriteLine();
+
+        var whatsLeft = subtract(100,30);
+            Console.WriteLine(whatsLeft );
+            Console.WriteLine();
+
+        var times = multiply(12, 30);
+            Console.WriteLine(times);
+            Console.WriteLine();
+
+            var splitCheck = divide(65, 2);
+            Console.WriteLine(splitCheck);
 
             //----------------exercise 1
             // Name: Michael
